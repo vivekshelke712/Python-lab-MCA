@@ -14,6 +14,7 @@ print(movies)
 movies.sort()
 print(movies)
 
+# 5. Create a new list that contains only the first and last movie in the original list and print it.
 newMovies = []
 newMovies.append(movies[0])
 newMovies.append(movies[len(movies)-1])
